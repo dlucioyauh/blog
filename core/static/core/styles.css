@@ -1,0 +1,116 @@
+html, body {
+    height: 100%; 
+    margin: 0; 
+}
+
+body {
+    font-family: 'Grandstander', sans-serif; 
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #33CCCC, #9900CC);
+    color: #333;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #9900CC;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #33CCCC;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: 'Danfo', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: #9900CC;
+}
+
+li {
+    background: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-posts {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.blog-post:hover {
+    transform: scale(1.02);
+    border-color: #9900CC;
+}
+
+.blog-post h2 {
+    margin: 0 0 10px;
+    color: #9900CC;
+}
+
+.tags {
+    margin-top: 10px;
+}
+
+.tag {
+    background: #33CCCC;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #9900CC;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.read-more:hover {
+    background: #33CCCC;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #9900CC, #33CCCC);
+    position: relative;
+    bottom: 0;
+    width: 98%;
+}
