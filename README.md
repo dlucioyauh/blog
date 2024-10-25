@@ -87,6 +87,13 @@ Neste desafio, foi solicitado que:
    - Vá para `http://127.0.0.1:8000/blog/` para ver a lista de posts e tags.
    - Vá para `http://127.0.0.1:8000/admin/` para acessar o admin do Django (use as credenciais `admin`/`admin`).
 
+## Imagens
+
+
+![Admin Django](images/django_admin.png)
+![Blog](images/blog.png)
+
+
 ## Licença
 
 ---
